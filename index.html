@@ -1,9 +1,77 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <title>My Learning Journal</title>
-        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <h1>index.html</h1>
+    <body dir="ltr">
+        <header class="header grid">
+            <div class="header__title"><img class="header__logo" src="img/logo.png" alt="symbol of a talking bubble">My learning journal</div>
+            <nav class = "menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class ="menu__link" href="">home</a></li>
+                    <li class="menu__item"><a class ="menu__link" href="">about me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="cover grid">
+            <div class="cover-wrapper">
+                <p class="post__date post__date--oncover">JULY 23, 2022</p>
+                <h1 class="post__title post__title--oncover">My new journey as a bootcamp student.</h1>
+                <p class="post__lead post__lead--oncover">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+            </div>
+        </div>
+        </section>
+        <section class="posts grid">
+            <div class="post-wrapper">
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-01.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog one</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                </article> 
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-02.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog two</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-03.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog three</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-04.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog four</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-05.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog five</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                </article>
+                <article class="post">
+                    <img class="post__image" src="img/blog-image-06.png" alt="" loading="lazy">
+                    <p class="post__date">JULY 23, 2022</p>
+                    <h1 class="post__title">Blog six</h1>
+                    <p class="post__lead">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                
+                </article>
+                <button class="postloader-btn">View More</button>
+            </div>
+            
+        </section>
+        <footer class="footer">
+                <p class="footer__title">My journal</p>
+                <p class="footer__license">Copyright ©2022</p>
+        </footer>
     </body>
 </html>
